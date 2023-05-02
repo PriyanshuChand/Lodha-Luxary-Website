@@ -67,6 +67,7 @@ h2 {
 }
 .location h2{
     text-align: center;
+    margin: 40px;
 }
 .location-items {
     display: flex;
@@ -112,6 +113,7 @@ h2 {
 }
 .gallery {
     text-align: center;
+    margin: 40px 0;
 }
 .images {
     width: 23%;
@@ -197,8 +199,8 @@ h2 {
 }
 .faq {
     margin: auto;
-    width: 80%;
-    padding: 20px;
+    width: 90%;
+    padding: 20px 0;
     background-color: beige;
 }
 .faq h2 {
@@ -219,10 +221,27 @@ h2 {
 }
 .map {
     text-align: center;
-    margin:30px;
+    margin:30px 0;
 
 }
 .map iframe {
     margin: 2%;
     border-radius: 10px;
+}
+.disclaimer {
+    background-color: grey; 
+     color: white;
+}
+.disclaimer-content {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    line-height: 20px;
+
+}
+.disclaimer-content p {
+    font-size: 13px;
+}
+.disclaimer-content h4 {
+    margin: 20px 0;
 }
