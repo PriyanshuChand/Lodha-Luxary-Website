@@ -197,6 +197,19 @@ h2 {
     border-radius: 5px;
     border: none;
 }
+
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+th, td {
+    padding: 10px 80px ;
+    text-align: center;
+    border-top: 1px solid grey;
+    margin: 0px;
+}
+
 .faq {
     margin: auto;
     width: 90%;
