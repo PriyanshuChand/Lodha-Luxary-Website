@@ -199,6 +199,7 @@ h2 {
     margin: auto;
     width: 80%;
     padding: 20px;
+    background-color: beige;
 }
 .faq h2 {
     text-align: center;
@@ -216,4 +217,12 @@ h2 {
 .faq-items p {
     padding: 10px;
 }
+.map {
+    text-align: center;
+    margin:30px;
 
+}
+.map iframe {
+    margin: 2%;
+    border-radius: 10px;
+}
