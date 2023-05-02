@@ -7,7 +7,6 @@ header {
     height: 5%;
     padding: 1.5% 1%;
     display: flex;
-    border: 1px solid red;
     justify-content: space-between;
     align-items: center;
 
@@ -129,7 +128,7 @@ h2 {
     padding: 30px;
 }
 .site-floor-mid{
-    width: 1170px;
+    width: 90%;
     margin: auto;
     display: flex;
 }
@@ -164,6 +163,37 @@ h2 {
     border: none;
     border-radius: 5px;
    
+}
+.price-list {
+    width: 90%;
+    margin: auto;    
+}
+.price-list h2 {
+    text-align: center;
+    margin: 2%;
+}
+.price-mid {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.prices {
+    height: 200px;
+    flex-basis: 33%;
+    background-color: gray;
+    color: white;
+    margin: 1.5%;
+    padding: 4%;
+    line-height: 50px;
+    border-radius: 10px;
+}
+.price-btn {
+    padding: 10px 50px;
+    font-size: 16px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    border: none;
 }
 .faq {
     margin: auto;
