@@ -1,0 +1,189 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+header {
+    width: 98%;
+    height: 5%;
+    padding: 1.5% 1%;
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    width: 15%;
+}
+.logo img{
+    width: 100%;
+
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu li {
+    margin: 10px;    
+}
+.menu button {
+    padding: 10px;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.info {
+    width: 100%;
+    height: 500px;
+    background: url(https://www.lodhaluxuryandheri.com/images/banner-2.jpg);
+}
+.overview {
+    width: 90%;
+    display: flex;
+    margin: 80px auto;
+}
+.img img {
+    width: 50%;
+}
+.content {
+    width: 50%;
+    margin: 0 2%;
+}
+.content p {
+    line-height: 30px;
+    text-align: justify;
+    
+}
+h2 {
+    font-weight: bold;
+}
+.location {
+    margin: auto;
+    width: 90%;
+}
+.location h2{
+    text-align: center;
+}
+.location-items {
+    display: flex;
+    background-color: rgb(209, 208, 208);
+}
+.items{
+    width: 23%;
+    margin: 1%;
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+}
+.projects {
+    width: 90%;
+    margin:  100px auto;
+    display: flex;
+}
+.projects li {
+    font-size: 18px;
+    line-height: 50px;
+}
+.amenties {
+    text-align: center;
+}
+.amenties-mid {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.amenties-items {
+    width: 17%;
+    margin: 1%;
+    border: 1px solid gray;
+    padding: 20px 0px;
+    text-align: center;
+}
+.gallery-mid {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery {
+    text-align: center;
+}
+.images {
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+}
+.images img {
+    width: 250px;
+    height: 200px;
+}
+.site-floor {
+    text-align: center;
+    background-color: yellow;
+    padding: 30px;
+}
+.site-floor-mid{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+}
+.site-floor-items {
+    width: 30%;
+    margin: 2%;
+    position: relative;
+}
+.site-floor-items img {
+    width: 100%;
+}
+.site-floor-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-floor-items:hover .site-floor-content {
+    opacity: 1;
+}
+.site-floor-content button {
+    padding: 10px 25px;
+    background: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+   
+}
+.faq {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+.faq h2 {
+    text-align: center;
+    margin: 20px;
+}
+.faq-items {
+    border: 1px solid black;
+    padding: 10px;
+}
+.faq-items h3 {
+    background-color: brown;
+    padding: 10px;
+    color: white;
+}
+.faq-items p {
+    padding: 10px;
+}
+
